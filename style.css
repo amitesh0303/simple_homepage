@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins";
   }
 
   body {
@@ -20,5 +21,24 @@
   }
 
   nav{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 92px;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  nav ul li{
+    padding-right:40px ;
+  }
+
+  #hero{
+    display: flex;
   }
