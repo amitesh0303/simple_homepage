@@ -3,10 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins";
+    background-color: #F2F9FE;
+    font-family: "Poppins";
   }
 
   body {
     height: 100vh;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 1.125rem;
   }
 
   .author-info {
@@ -40,5 +45,41 @@
   }
 
   #hero{
+    display: flex;
+    flex-direction: row;
+  }
+  h1{
+    font-size: 3.75rem;
+    margin-bottom: 32px;
+  }
+  h6{
+    font-size: 0.875rem;
+  }
+  #hero-btn-group{
+    display: flex;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top:22px; 
+    margin-bottom:40px; 
+  }
+  #hero-btn-group button{
+    background-color: #2A4DD0;
+    padding:16px 32px;
+    border-radius: 20px;
+    color:#F2F9FE;
+    font-size:1rem;
+    font-weight: 600;
+  }
+#hero-btn-group p{
+  padding:16px 32px;
+  text-decoration: underline;
+  color:#2A4DD0;
+}
+  #checklist{
+    display: flex;
+    font-size: 0.875rem;
+    gap:5px;
+  }
+  #checklist div{
     display: flex;
   }
